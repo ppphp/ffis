@@ -30,14 +30,13 @@ script languages
 - go
 - python
 - ruby
+- javascript (broken)
 
-## roadmap
+## how to prepare a ffi interface
 
-support struct
+1. write functions, determine the type
+2. export to c interface
+3. find functions, load functions
+4. use functions
 
-support more languages
-- dart
-- nim
-- haskell
-- sql
 

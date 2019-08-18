@@ -5,7 +5,7 @@ clean:
 	-rm libmylib.so
 
 build:
-	g++ -g -fPIC -Wall -Werror -Wextra -pedantic mylib.cpp -shared -o libmylib.so
+	g++ -Ofast -g -fPIC -Wall -Werror -Wextra -pedantic mylib.cpp -shared -o libmylib.so
 
 install:
 	mkdir -p ../../lib

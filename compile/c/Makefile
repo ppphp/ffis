@@ -5,7 +5,7 @@ clean:
 	-rm libmylib.so
 
 build:
-	gcc -g -fPIC -Wall -Werror -Wextra -pedantic mylib.c -shared -o libmylib.so
+	gcc -Ofast -g -fPIC -Wall -Werror -Wextra -pedantic mylib.c -shared -o libmylib.so
 
 install:
 	mkdir -p ../../lib
