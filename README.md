@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/ppphp/ffis.svg?branch=master)](https://travis-ci.org/ppphp/ffis)
+
 # ffis
 
 There are some ffi samples in the repo.
