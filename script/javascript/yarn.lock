@@ -2,3 +2,32 @@
 # yarn lockfile v1
 
 
+"dependency-env@git+https://github.com/npm-ml/dependency-env.git":
+  version "0.1.1"
+  resolved "git+https://github.com/npm-ml/dependency-env.git#94c75aff3a71587afb570d89bcf2eef7996bb67f"
+  dependencies:
+    resolve "^1.1.7"
+
+libffi@^3.2.11:
+  version "3.2.11"
+  resolved "https://registry.yarnpkg.com/libffi/-/libffi-3.2.11.tgz#4d1d94dacae6c511c434ea50cc5d62ddcc97461e"
+  integrity sha1-TR2U2srmxRHENOpQzF1i3cyXRh4=
+  dependencies:
+    dependency-env "https://github.com/npm-ml/dependency-env.git"
+    nopam "https://github.com/yunxing/nopam.git"
+
+"nopam@git+https://github.com/yunxing/nopam.git":
+  version "0.1.0"
+  resolved "git+https://github.com/yunxing/nopam.git#7cd19f068ac9aaf75010cd6961f7c65c779a1d4a"
+
+path-parse@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
+  integrity sha512-GSmOT2EbHrINBf9SR7CDELwlJ8AENk3Qn7OikK4nFYAu3Ote2+JYNVvkpAEQm3/TLNEJFD/xZJjzyxg3KBWOzw==
+
+resolve@^1.1.7:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/resolve/-/resolve-1.12.0.tgz#3fc644a35c84a48554609ff26ec52b66fa577df6"
+  integrity sha512-B/dOmuoAik5bKcD6s6nXDCjzUKnaDvdkRyAk6rsmsKLipWj4797iothd7jmmUhWTfinVMU+wc56rYKsit2Qy4w==
+  dependencies:
+    path-parse "^1.0.6"
